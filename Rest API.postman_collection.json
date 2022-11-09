@@ -1,0 +1,347 @@
+{
+	"info": {
+		"_postman_id": "0dffc010-4b30-437b-a0e6-aa6cb97c8bdf",
+		"name": "Rest API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Caller",
+			"item": [
+				{
+					"name": "http://localhost:8080/caller-service/callResponseSingleStringURL",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/caller-service/callResponseSingleStringURL",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"callResponseSingleStringURL"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/caller-service/callerResponseSingleObjectURL",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/caller-service/callerResponseSingleObjectURL",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"callerResponseSingleObjectURL"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/caller-service/callerResponseObjectURL",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/caller-service/callerResponseObjectURL",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"callerResponseObjectURL"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/caller-service/callerResponseStringListURL",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/caller-service/callerResponseStringListURL",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"callerResponseStringListURL"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/caller-service/callerResponseObjectListURL",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/caller-service/callerResponseObjectListURL",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"callerResponseObjectListURL"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/caller-service/callerResponseCustomObjectListURL",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/caller-service/callerResponseCustomObjectListURL",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"callerResponseCustomObjectListURL"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/caller-service/callerResponseNestedObjectURL",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/caller-service/callerResponseNestedObjectURL",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"callerResponseNestedObjectURL"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/caller-service/callerResponseNestedObjectListURL",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/caller-service/callerResponseNestedObjectListURL",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"caller-service",
+								"callerResponseNestedObjectListURL"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Receiver",
+			"item": [
+				{
+					"name": "http://localhost:8081/receiver-service/api/responseSingleString",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/receiver-service/api/responseSingleString",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseSingleString"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8081/receiver-service/api/responseSingleObject",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/receiver-service/api/responseSingleObject",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseSingleObject"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8081/receiver-service/api/responseObject",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/receiver-service/api/responseObject",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseObject"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8081/receiver-service/api/responseStringList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/receiver-service/api/responseStringList",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseStringList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8081/receiver-service/api/responseObjectList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/receiver-service/api/responseObjectList",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseObjectList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8081/receiver-service/api/responseCustomObjectList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/receiver-service/api/responseCustomObjectList",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseCustomObjectList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8081/receiver-service/api/responseNestedObject",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/receiver-service/api/responseNestedObject",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseNestedObject"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8081/receiver-service/api/responseNestedObjectAndNestedObjectList",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/receiver-service/api/responseNestedObjectAndNestedObjectList",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"receiver-service",
+								"api",
+								"responseNestedObjectAndNestedObjectList"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
